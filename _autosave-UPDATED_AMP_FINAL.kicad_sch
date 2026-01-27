@@ -1956,18 +1956,6 @@
 		)
 		(uuid "06d0ebda-a562-48b8-86a3-db8887fc26f3")
 	)
-	(text "1.2x3"
-		(exclude_from_sim no)
-		(at 293.37 305.562 0)
-		(effects
-			(font
-				(face "Barlow")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "0a73e2d8-b4ec-481c-87a4-44c97965820d")
-	)
 	(text "SHARED_PWR_2"
 		(exclude_from_sim no)
 		(at 421.894 280.67 90)
@@ -2305,6 +2293,19 @@
 			(justify left)
 		)
 		(uuid "736cee3f-c64c-46a4-84fe-1544707daa88")
+	)
+	(text "E-fuses \n(7A), 1-4"
+		(exclude_from_sim no)
+		(at 313.944 457.962 0)
+		(effects
+			(font
+				(face "Barlow")
+				(size 2.54 2.54)
+				(thickness 0.762)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "73de7a2c-07b8-4969-a344-ecb852a3f3b5")
 	)
 	(text "E-Matches"
 		(exclude_from_sim no)
@@ -2888,29 +2889,6 @@
 		)
 		(uuid "1855739e-af61-4a39-b509-bdbe91d69667")
 	)
-	(text_box "E-Fuse 1-4(7A)"
-		(exclude_from_sim no)
-		(at 302.26 454.66 0)
-		(size 0.0254 0.0254)
-		(margins 2.8575 2.8575 2.8575 2.8575)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Barlow")
-				(size 2.54 2.54)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "1b0082f2-1f72-4c80-97bc-00d7ba78c8ae")
-	)
 	(text_box "ST1x2"
 		(exclude_from_sim no)
 		(at 369.57 95.25 0)
@@ -3415,29 +3393,6 @@
 			(justify left)
 		)
 		(uuid "64a75572-0425-4ff1-95e9-b931aab9b06d")
-	)
-	(text_box "Screw Switch"
-		(exclude_from_sim no)
-		(at 316.23 384.81 0)
-		(size 0.0254 0.0254)
-		(margins 2.8575 2.8575 2.8575 2.8575)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Barlow")
-				(size 2.54 2.54)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "6508426f-1a37-4c35-b4c6-85fc99f358ba")
 	)
 	(text_box "MW1x2"
 		(exclude_from_sim no)
@@ -5189,7 +5144,7 @@
 		(uuid "1d691a2e-41e5-44db-ada1-d52932e29517")
 	)
 	(junction
-		(at 321.31 440.69)
+		(at 321.31 443.23)
 		(diameter 0)
 		(color 221 133 0 1)
 		(uuid "2cb254c0-cd3a-41c7-bd30-ba6e26cb5d15")
@@ -5207,7 +5162,7 @@
 		(uuid "40b5dd35-7b5e-4b11-9bdb-3eddb7b381c3")
 	)
 	(junction
-		(at 321.31 436.88)
+		(at 321.31 439.42)
 		(diameter 0)
 		(color 221 133 0 1)
 		(uuid "4680423f-ddab-4645-97e3-e257a1deccd7")
@@ -5225,6 +5180,12 @@
 		(uuid "59437922-f704-4989-b189-36432a3d5964")
 	)
 	(junction
+		(at 312.42 408.94)
+		(diameter 0)
+		(color 221 133 0 1)
+		(uuid "6873aae2-29cf-4acc-9e6e-a097b1222f22")
+	)
+	(junction
 		(at 214.63 455.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5233,13 +5194,13 @@
 	(junction
 		(at 335.28 457.2)
 		(diameter 0)
-		(color 0 0 0 0)
+		(color 221 133 0 1)
 		(uuid "729a4b01-a3e2-4238-afbb-ec386ddb7315")
 	)
 	(junction
 		(at 335.28 431.8)
 		(diameter 0)
-		(color 0 0 0 0)
+		(color 221 133 0 1)
 		(uuid "80e0b08e-24f5-44ca-a16a-98a01f95cdeb")
 	)
 	(junction
@@ -5273,13 +5234,7 @@
 		(uuid "b3c0d1f2-be06-4198-b382-55f629fe2789")
 	)
 	(junction
-		(at 335.28 408.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b857db35-204e-4ae1-ae4f-cb780d99b226")
-	)
-	(junction
-		(at 321.31 444.5)
+		(at 321.31 447.04)
 		(diameter 0)
 		(color 221 133 0 1)
 		(uuid "c84e6b8f-2262-4e13-8c91-3e6e21410dce")
@@ -5474,17 +5429,6 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 392.43) (xy 325.12 436.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 221 133 0 1)
-		)
-		(uuid "0aa17684-bafc-474f-9061-a641e1348334")
-	)
-	(wire
-		(pts
 			(xy 143.51 372.11) (xy 143.51 378.46)
 		)
 		(stroke
@@ -5584,7 +5528,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 448.31) (xy 321.31 448.31)
+			(xy 317.5 450.85) (xy 321.31 450.85)
 		)
 		(stroke
 			(width 0)
@@ -5694,7 +5638,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 388.62) (xy 316.23 392.43)
+			(xy 321.31 391.16) (xy 321.31 439.42)
 		)
 		(stroke
 			(width 0)
@@ -5870,7 +5814,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 448.31) (xy 300.99 472.44)
+			(xy 300.99 450.85) (xy 300.99 472.44)
 		)
 		(stroke
 			(width 0)
@@ -5925,7 +5869,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 351.79) (xy 337.82 351.79)
+			(xy 326.39 349.25) (xy 337.82 349.25)
 		)
 		(stroke
 			(width 0)
@@ -5944,6 +5888,17 @@
 			(color 132 132 132 1)
 		)
 		(uuid "2d084108-cc30-4146-a2ab-77a4b25ddde3")
+	)
+	(wire
+		(pts
+			(xy 312.42 381) (xy 312.42 408.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 221 133 0 1)
+		)
+		(uuid "2d4e54aa-eb5a-48c6-9726-2a4b09f5fcad")
 	)
 	(wire
 		(pts
@@ -6002,6 +5957,17 @@
 	)
 	(wire
 		(pts
+			(xy 312.42 408.94) (xy 335.28 408.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 221 133 0 1)
+		)
+		(uuid "31255563-96ca-43ec-853c-bf9047bc46d5")
+	)
+	(wire
+		(pts
 			(xy 162.56 793.75) (xy 219.71 793.75)
 		)
 		(stroke
@@ -6013,7 +5979,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 436.88) (xy 321.31 440.69)
+			(xy 321.31 439.42) (xy 321.31 443.23)
 		)
 		(stroke
 			(width 0)
@@ -6090,7 +6056,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 375.92) (xy 316.23 378.46)
+			(xy 321.31 375.92) (xy 321.31 378.46)
 		)
 		(stroke
 			(width 0)
@@ -6131,17 +6097,6 @@
 			(color 221 133 0 1)
 		)
 		(uuid "3a5bec4f-df74-450e-bde2-4a2527ddab09")
-	)
-	(wire
-		(pts
-			(xy 316.23 392.43) (xy 325.12 392.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 221 133 0 1)
-		)
-		(uuid "3bfadb7f-764c-4af6-987e-4db543dbb28d")
 	)
 	(wire
 		(pts
@@ -6277,7 +6232,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 440.69) (xy 298.45 435.61)
+			(xy 298.45 443.23) (xy 298.45 435.61)
 		)
 		(stroke
 			(width 0)
@@ -6310,7 +6265,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 444.5) (xy 321.31 448.31)
+			(xy 321.31 447.04) (xy 321.31 450.85)
 		)
 		(stroke
 			(width 0)
@@ -6318,17 +6273,6 @@
 			(color 221 133 0 1)
 		)
 		(uuid "4e02825e-a56c-4f04-9190-e9ec5112f68f")
-	)
-	(wire
-		(pts
-			(xy 292.1 394.97) (xy 292.1 383.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 221 133 0 1)
-		)
-		(uuid "4f68dfa3-81b4-4ca5-95dd-96404c045d13")
 	)
 	(wire
 		(pts
@@ -6387,7 +6331,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 387.35) (xy 330.2 358.14)
+			(xy 334.01 387.35) (xy 334.01 354.33)
 		)
 		(stroke
 			(width 0)
@@ -6475,7 +6419,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 436.88) (xy 300.99 414.02)
+			(xy 300.99 439.42) (xy 300.99 412.75)
 		)
 		(stroke
 			(width 0)
@@ -6570,17 +6514,6 @@
 			(color 221 133 0 1)
 		)
 		(uuid "6153e773-12e5-4120-85ad-f855f86daf6c")
-	)
-	(wire
-		(pts
-			(xy 335.28 394.97) (xy 335.28 408.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 221 133 0 1)
-		)
-		(uuid "6238072a-2c8d-473a-a9f4-b8b525b7d647")
 	)
 	(wire
 		(pts
@@ -6738,7 +6671,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 387.35) (xy 345.44 387.35)
+			(xy 334.01 387.35) (xy 345.44 387.35)
 		)
 		(stroke
 			(width 0)
@@ -6837,7 +6770,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 444.5) (xy 321.31 444.5)
+			(xy 317.5 447.04) (xy 321.31 447.04)
 		)
 		(stroke
 			(width 0)
@@ -7288,7 +7221,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 351.79) (xy 337.82 379.73)
+			(xy 337.82 349.25) (xy 337.82 379.73)
 		)
 		(stroke
 			(width 0)
@@ -7563,7 +7496,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 414.02) (xy 300.99 414.02)
+			(xy 295.91 412.75) (xy 300.99 412.75)
 		)
 		(stroke
 			(width 0)
@@ -7904,7 +7837,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 383.54) (xy 292.1 383.54)
+			(xy 285.75 381) (xy 312.42 381)
 		)
 		(stroke
 			(width 0)
@@ -7926,7 +7859,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 408.94) (xy 335.28 408.94)
+			(xy 295.91 408.94) (xy 312.42 408.94)
 		)
 		(stroke
 			(width 0)
@@ -7948,7 +7881,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 448.31) (xy 300.99 448.31)
+			(xy 304.8 450.85) (xy 300.99 450.85)
 		)
 		(stroke
 			(width 0)
@@ -7959,7 +7892,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 440.69) (xy 321.31 444.5)
+			(xy 321.31 443.23) (xy 321.31 447.04)
 		)
 		(stroke
 			(width 0)
@@ -8036,7 +7969,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 436.88) (xy 304.8 436.88)
+			(xy 300.99 439.42) (xy 304.8 439.42)
 		)
 		(stroke
 			(width 0)
@@ -8135,7 +8068,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 436.88) (xy 321.31 436.88)
+			(xy 317.5 439.42) (xy 321.31 439.42)
 		)
 		(stroke
 			(width 0)
@@ -8322,7 +8255,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 440.69) (xy 298.45 440.69)
+			(xy 304.8 443.23) (xy 298.45 443.23)
 		)
 		(stroke
 			(width 0)
@@ -8421,7 +8354,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 444.5) (xy 304.8 444.5)
+			(xy 298.45 447.04) (xy 304.8 447.04)
 		)
 		(stroke
 			(width 0)
@@ -8465,17 +8398,6 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 394.97) (xy 335.28 394.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 221 133 0 1)
-		)
-		(uuid "e72c9a30-9322-43df-9c77-39361c36b07c")
-	)
-	(wire
-		(pts
 			(xy 128.27 322.58) (xy 220.98 322.58)
 		)
 		(stroke
@@ -8498,17 +8420,6 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 436.88) (xy 321.31 436.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 221 133 0 1)
-		)
-		(uuid "e83df6b5-d3f7-478f-9c00-b0ec41b65daf")
-	)
-	(wire
-		(pts
 			(xy 386.08 412.75) (xy 403.86 412.75)
 		)
 		(stroke
@@ -8520,7 +8431,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 358.14) (xy 330.2 358.14)
+			(xy 285.75 354.33) (xy 334.01 354.33)
 		)
 		(stroke
 			(width 0)
@@ -8564,7 +8475,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 440.69) (xy 321.31 440.69)
+			(xy 317.5 443.23) (xy 321.31 443.23)
 		)
 		(stroke
 			(width 0)
@@ -8630,7 +8541,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 444.5) (xy 298.45 453.39)
+			(xy 298.45 447.04) (xy 298.45 453.39)
 		)
 		(stroke
 			(width 0)
@@ -9509,7 +9420,7 @@
 	(symbol
 		(lib_name "SW_SPST_1")
 		(lib_id "Switch:SW_SPST")
-		(at 316.23 383.54 270)
+		(at 321.31 383.54 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9518,7 +9429,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f366f1b-eefa-40e3-99f7-788dc5716c65")
 		(property "Reference" "SW1"
-			(at 322.58 383.54 0)
+			(at 327.66 383.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9527,7 +9438,7 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 320.04 383.54 0)
+			(at 325.12 383.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9536,7 +9447,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 316.23 383.54 0)
+			(at 321.31 383.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9545,7 +9456,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 316.23 383.54 0)
+			(at 321.31 383.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9554,7 +9465,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 310.388 383.54 0)
+			(at 315.468 383.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9981,7 +9892,7 @@
 	(symbol
 		(lib_name "Fuse_4")
 		(lib_id "Device:Fuse")
-		(at 317.5 444.5 180)
+		(at 317.5 447.04 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9989,7 +9900,7 @@
 		(dnp no)
 		(uuid "7eabd5ed-b7b8-4f0e-8d76-2b98f09ecf95")
 		(property "Reference" "E-Fuse1"
-			(at 307.34 445.77 0)
+			(at 307.34 448.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9998,7 +9909,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 310.134 449.326 0)
+			(at 310.134 451.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10007,7 +9918,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 319.278 444.5 90)
+			(at 319.278 447.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10016,7 +9927,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 317.5 444.5 0)
+			(at 317.5 447.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10025,7 +9936,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 317.5 444.5 0)
+			(at 317.5 447.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10185,7 +10096,7 @@
 	(symbol
 		(lib_name "Fuse_4")
 		(lib_id "Device:Fuse")
-		(at 317.5 440.69 180)
+		(at 317.5 443.23 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10193,7 +10104,7 @@
 		(dnp no)
 		(uuid "9a41b935-e900-4a47-a22e-4e863df7455d")
 		(property "Reference" "E-Fuse2"
-			(at 307.34 441.96 0)
+			(at 307.34 444.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10202,7 +10113,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 310.134 445.516 0)
+			(at 310.134 448.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10211,7 +10122,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 319.278 440.69 90)
+			(at 319.278 443.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10220,7 +10131,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 317.5 440.69 0)
+			(at 317.5 443.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10229,7 +10140,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 317.5 440.69 0)
+			(at 317.5 443.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10321,7 +10232,7 @@
 	(symbol
 		(lib_name "Fuse_5")
 		(lib_id "Device:Fuse")
-		(at 313.69 351.79 180)
+		(at 313.69 349.25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10329,7 +10240,7 @@
 		(dnp no)
 		(uuid "a83c6e50-c81e-42ef-a6db-f11866224310")
 		(property "Reference" "F6"
-			(at 307.34 351.79 90)
+			(at 307.34 349.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10338,7 +10249,7 @@
 			)
 		)
 		(property "Value" "Fuse (7A"
-			(at 309.626 354.838 90)
+			(at 309.626 352.298 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10347,7 +10258,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 315.468 351.79 90)
+			(at 315.468 349.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10356,7 +10267,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 313.69 351.79 0)
+			(at 313.69 349.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10365,7 +10276,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 313.69 351.79 0)
+			(at 313.69 349.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10533,7 +10444,7 @@
 	(symbol
 		(lib_name "Fuse_3")
 		(lib_id "Device:Fuse")
-		(at 317.5 436.88 180)
+		(at 317.5 439.42 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10541,7 +10452,7 @@
 		(dnp no)
 		(uuid "bac7bd91-11f2-40fd-8654-214f9a2190fb")
 		(property "Reference" "E-Fuse(1-4)(7A)"
-			(at 319.278 452.374 0)
+			(at 319.278 454.914 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -10550,7 +10461,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 310.134 441.706 0)
+			(at 310.134 444.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10559,7 +10470,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 319.278 436.88 90)
+			(at 319.278 439.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10568,7 +10479,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 317.5 436.88 0)
+			(at 317.5 439.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10577,7 +10488,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 317.5 436.88 0)
+			(at 317.5 439.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10597,7 +10508,7 @@
 	(symbol
 		(lib_name "Fuse_4")
 		(lib_id "Device:Fuse")
-		(at 317.5 448.31 180)
+		(at 317.5 450.85 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10605,7 +10516,7 @@
 		(dnp no)
 		(uuid "c9db1d9f-fd9b-48ce-bfed-d2d167641582")
 		(property "Reference" "E-Fuse3"
-			(at 307.34 449.58 0)
+			(at 307.34 452.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10614,7 +10525,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 310.134 453.136 0)
+			(at 310.134 455.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10623,7 +10534,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 319.278 448.31 90)
+			(at 319.278 450.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10632,7 +10543,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 317.5 448.31 0)
+			(at 317.5 450.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10641,7 +10552,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 317.5 448.31 0)
+			(at 317.5 450.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10661,7 +10572,7 @@
 	(symbol
 		(lib_name "SW_SPST_4")
 		(lib_id "Switch:SW_SPST")
-		(at 321.31 351.79 0)
+		(at 321.31 349.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10670,7 +10581,7 @@
 		(fields_autoplaced yes)
 		(uuid "d329a135-3746-42d0-86eb-28c201a731a1")
 		(property "Reference" "SW3"
-			(at 321.31 345.44 0)
+			(at 321.31 342.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10679,7 +10590,7 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 321.31 347.98 0)
+			(at 321.31 345.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10688,7 +10599,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 321.31 351.79 0)
+			(at 321.31 349.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10697,7 +10608,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 321.31 351.79 0)
+			(at 321.31 349.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10706,7 +10617,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 321.31 355.092 0)
+			(at 321.31 352.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
