@@ -1743,7 +1743,7 @@
 	)
 	(rectangle
 		(start 246.38 791.21)
-		(end 373.38 853.44)
+		(end 373.38 843.28)
 		(stroke
 			(width 0.254)
 			(type default)
@@ -2128,6 +2128,19 @@
 			(justify left top)
 		)
 		(uuid "6b76f0f5-8d56-4f24-854e-d70366dd3e6f")
+	)
+	(text "Magnetic\nSwitch"
+		(exclude_from_sim no)
+		(at 319.278 91.948 0)
+		(effects
+			(font
+				(face "Barlow")
+				(size 2.54 2.54)
+				(thickness 0.762)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "6cf29649-c5c0-453d-bfd1-06ee73611c1d")
 	)
 	(text "Fuse\n(7A)"
 		(exclude_from_sim no)
@@ -2608,6 +2621,19 @@
 			(justify left)
 		)
 		(uuid "e90193d2-a836-4bf7-a9cf-3b65df5dd04a")
+	)
+	(text "Fuse\n(7A)"
+		(exclude_from_sim no)
+		(at 328.93 75.184 0)
+		(effects
+			(font
+				(face "Barlow")
+				(size 2.54 2.54)
+				(thickness 0.762)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "fb1bda53-0a74-487a-a1e8-dea229904ded")
 	)
 	(text "Mini A.M.P"
 		(exclude_from_sim no)
