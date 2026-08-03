@@ -2038,6 +2038,20 @@
 		)
 		(uuid "1343b1cb-76c0-462e-978b-a18764ad1794")
 	)
+	(text "Recovery\nBeacon"
+		(exclude_from_sim no)
+		(at 315.722 310.388 0)
+		(effects
+			(font
+				(face "Barlow SemiBold")
+				(size 5.08 5.08)
+				(thickness 0.508)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "14007ad7-4375-4d05-a2d4-fc1b23e89111")
+	)
 	(text "Blue Raven"
 		(exclude_from_sim no)
 		(at 248.158 693.6069 0)
@@ -2441,7 +2455,7 @@
 	)
 	(text "VL Mini V3"
 		(exclude_from_sim no)
-		(at 315.468 310.642 0)
+		(at 315.976 188.722 0)
 		(effects
 			(font
 				(face "Barlow SemiBold")
@@ -2983,20 +2997,6 @@
 			(justify left top)
 		)
 		(uuid "fcce726a-ad80-4d0a-9b3b-489681050315")
-	)
-	(text "Recovery\nBeacon"
-		(exclude_from_sim no)
-		(at 316.23 188.214 0)
-		(effects
-			(font
-				(face "Barlow SemiBold")
-				(size 5.08 5.08)
-				(thickness 0.508)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "fe349764-8853-44d4-886c-322b9577236d")
 	)
 	(text_box "M1x2"
 		(exclude_from_sim no)
@@ -5283,12 +5283,6 @@
 		(uuid "faa0bd8c-1189-49f0-a3dc-3baa2fe3636b")
 	)
 	(junction
-		(at 427.99 341.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "190315a4-d009-4f8c-90b4-f5cb773d01d6")
-	)
-	(junction
 		(at 314.96 542.29)
 		(diameter 0)
 		(color 221 133 0 1)
@@ -5297,7 +5291,7 @@
 	(junction
 		(at 205.74 356.87)
 		(diameter 0)
-		(color 0 0 0 0)
+		(color 221 133 0 1)
 		(uuid "46ba0b87-36fe-4bae-bcf4-243807e1e6e2")
 	)
 	(junction
@@ -5325,6 +5319,12 @@
 		(uuid "60206db6-691c-49f9-adeb-cd80837b1246")
 	)
 	(junction
+		(at 427.99 260.35)
+		(diameter 0)
+		(color 221 133 0 1)
+		(uuid "66a47429-6ab0-492d-81b2-d57ad6e2bc9e")
+	)
+	(junction
 		(at 217.17 565.15)
 		(diameter 0)
 		(color 221 133 0 1)
@@ -5337,16 +5337,22 @@
 		(uuid "9e624a2a-9eed-4602-8406-7c9a52ef7ea8")
 	)
 	(junction
+		(at 195.58 632.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7da290c-6f29-4a7b-beec-f675ba4ce741")
+	)
+	(junction
 		(at 205.74 542.29)
 		(diameter 0)
 		(color 221 133 0 1)
 		(uuid "ac49ef08-c6fe-41cc-9b83-5dfa01152b60")
 	)
 	(junction
-		(at 426.72 342.9)
+		(at 426.72 261.62)
 		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be69910d-07b9-43f1-b974-7c84ee6cd2d3")
+		(color 221 133 0 1)
+		(uuid "bc92831d-7198-4384-a3e4-d4857b053506")
 	)
 	(junction
 		(at 217.17 628.65)
@@ -5357,7 +5363,7 @@
 	(junction
 		(at 204.47 355.6)
 		(diameter 0)
-		(color 0 0 0 0)
+		(color 221 133 0 1)
 		(uuid "c20857e0-c0b3-43b8-9500-be83d0437fdb")
 	)
 	(junction
@@ -5544,6 +5550,17 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 359.41) (xy 194.31 632.46)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 221 133 0 1)
+		)
+		(uuid "08726b74-555a-473c-99f0-89215f5c90b5")
+	)
+	(wire
+		(pts
 			(xy 397.51 148.59) (xy 422.91 148.59)
 		)
 		(stroke
@@ -5599,17 +5616,6 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 341.63) (xy 427.99 341.63)
-		)
-		(stroke
-			(width 0.381)
-			(type default)
-			(color 221 133 0 1)
-		)
-		(uuid "0b822e4e-62a5-4dd6-a29f-deb3e55d75c9")
-	)
-	(wire
-		(pts
 			(xy 411.48 161.29) (xy 411.48 167.64)
 		)
 		(stroke
@@ -5632,7 +5638,7 @@
 	)
 	(wire
 		(pts
-			(xy 426.72 342.9) (xy 426.72 356.87)
+			(xy 426.72 261.62) (xy 426.72 356.87)
 		)
 		(stroke
 			(width 0.381)
@@ -5684,6 +5690,17 @@
 			(color 221 133 0 1)
 		)
 		(uuid "1008becb-e7c1-463c-8407-0a08fc53cfa9")
+	)
+	(wire
+		(pts
+			(xy 194.31 359.41) (xy 405.13 359.41)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 221 133 0 1)
+		)
+		(uuid "10e01dae-49c8-49fd-8275-516db0bacf47")
 	)
 	(wire
 		(pts
@@ -5885,6 +5902,17 @@
 	)
 	(wire
 		(pts
+			(xy 396.24 341.63) (xy 405.13 341.63)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 221 133 0 1)
+		)
+		(uuid "1d72bc87-6dee-4810-8e77-a3f6bbb65aee")
+	)
+	(wire
+		(pts
 			(xy 135.89 716.28) (xy 222.25 716.28)
 		)
 		(stroke
@@ -6058,6 +6086,17 @@
 			(color 221 133 0 1)
 		)
 		(uuid "275eddca-b536-4714-8c5d-f4a0fd8dfbc6")
+	)
+	(wire
+		(pts
+			(xy 195.58 360.68) (xy 406.4 360.68)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 221 133 0 1)
+		)
+		(uuid "27652031-ab58-4efc-9719-1fab78a40a94")
 	)
 	(wire
 		(pts
@@ -6380,6 +6419,17 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 632.46) (xy 223.52 632.46)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 221 133 0 1)
+		)
+		(uuid "3e3d4369-3d6c-474f-8d98-9b8d91a62322")
+	)
+	(wire
+		(pts
 			(xy 322.58 148.59) (xy 334.01 148.59)
 		)
 		(stroke
@@ -6388,6 +6438,17 @@
 			(color 194 0 194 1)
 		)
 		(uuid "3e571c6f-dbdb-4fc7-9f16-c32ebcd41a40")
+	)
+	(wire
+		(pts
+			(xy 426.72 228.6) (xy 426.72 261.62)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 221 133 0 1)
+		)
+		(uuid "3f01e7f1-548d-450d-925e-edd8e3dcdc3b")
 	)
 	(wire
 		(pts
@@ -6622,6 +6683,17 @@
 	)
 	(wire
 		(pts
+			(xy 396.24 342.9) (xy 406.4 342.9)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 221 133 0 1)
+		)
+		(uuid "528dec88-02ed-4500-b350-670c311ca5e9")
+	)
+	(wire
+		(pts
 			(xy 405.13 679.45) (xy 405.13 706.12)
 		)
 		(stroke
@@ -6707,6 +6779,17 @@
 			(color 132 132 132 1)
 		)
 		(uuid "574dfbdf-46a9-4fee-aea2-d526cc300f65")
+	)
+	(wire
+		(pts
+			(xy 406.4 360.68) (xy 406.4 342.9)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 221 133 0 1)
+		)
+		(uuid "57a37d8f-99a1-4a78-a2dc-8211c06bceb3")
 	)
 	(wire
 		(pts
@@ -6963,17 +7046,6 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 342.9) (xy 426.72 342.9)
-		)
-		(stroke
-			(width 0.381)
-			(type default)
-			(color 221 133 0 1)
-		)
-		(uuid "6e4e3050-c4df-40e5-9997-f04b0bbf8c0a")
-	)
-	(wire
-		(pts
 			(xy 223.52 565.15) (xy 217.17 565.15)
 		)
 		(stroke
@@ -7070,17 +7142,6 @@
 			(color 72 72 72 1)
 		)
 		(uuid "749bb84f-f558-444b-b901-d0114b21924f")
-	)
-	(wire
-		(pts
-			(xy 195.58 247.65) (xy 400.05 247.65)
-		)
-		(stroke
-			(width 0.381)
-			(type default)
-			(color 221 133 0 1)
-		)
-		(uuid "74e29273-e923-4321-834c-cecdf05446c7")
 	)
 	(wire
 		(pts
@@ -7755,17 +7816,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 519.43) (xy 223.52 519.43)
-		)
-		(stroke
-			(width 0.381)
-			(type default)
-			(color 221 133 0 1)
-		)
-		(uuid "992a2a7e-7701-428a-b09e-0b5d7de44073")
-	)
-	(wire
-		(pts
 			(xy 304.8 803.91) (xy 332.74 803.91)
 		)
 		(stroke
@@ -7986,6 +8036,17 @@
 	)
 	(wire
 		(pts
+			(xy 427.99 227.33) (xy 427.99 260.35)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 221 133 0 1)
+		)
+		(uuid "a8d5e414-396e-42b2-8ff1-e13148932e9c")
+	)
+	(wire
+		(pts
 			(xy 396.24 803.91) (xy 417.83 803.91)
 		)
 		(stroke
@@ -7994,17 +8055,6 @@
 			(color 0 0 255 1)
 		)
 		(uuid "a960faef-3ddf-402b-84d7-f6e89bb83b2f")
-	)
-	(wire
-		(pts
-			(xy 427.99 355.6) (xy 427.99 341.63)
-		)
-		(stroke
-			(width 0.381)
-			(type default)
-			(color 221 133 0 1)
-		)
-		(uuid "a98f4e00-0091-4908-9c57-c22bcc4e661b")
 	)
 	(wire
 		(pts
@@ -8137,17 +8187,6 @@
 			(color 72 72 72 1)
 		)
 		(uuid "af078bfb-17a3-49bc-bf7e-d7f70982ff76")
-	)
-	(wire
-		(pts
-			(xy 400.05 247.65) (xy 400.05 227.33)
-		)
-		(stroke
-			(width 0.381)
-			(type default)
-			(color 221 133 0 1)
-		)
-		(uuid "afc2d80c-61f0-4b6a-be51-7842c7f44249")
 	)
 	(wire
 		(pts
@@ -8426,6 +8465,17 @@
 	)
 	(wire
 		(pts
+			(xy 405.13 359.41) (xy 405.13 341.63)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 221 133 0 1)
+		)
+		(uuid "c1b93fc2-2af6-4b6a-8387-c7326f015c66")
+	)
+	(wire
+		(pts
 			(xy 323.85 92.71) (xy 355.6 92.71)
 		)
 		(stroke
@@ -8511,17 +8561,6 @@
 			(color 72 72 72 1)
 		)
 		(uuid "cacd2eb5-2af2-402e-bd5e-dd4827918dc8")
-	)
-	(wire
-		(pts
-			(xy 194.31 246.38) (xy 398.78 246.38)
-		)
-		(stroke
-			(width 0.381)
-			(type default)
-			(color 221 133 0 1)
-		)
-		(uuid "cadc3535-d58b-4376-9d01-ab51e3f6b8f2")
 	)
 	(wire
 		(pts
@@ -8657,7 +8696,7 @@
 	)
 	(wire
 		(pts
-			(xy 427.99 341.63) (xy 427.99 260.35)
+			(xy 427.99 260.35) (xy 427.99 355.6)
 		)
 		(stroke
 			(width 0.381)
@@ -8753,17 +8792,6 @@
 			(color 72 72 72 1)
 		)
 		(uuid "d7d6ca59-e2f6-4088-ac9f-1e1cbc94957d")
-	)
-	(wire
-		(pts
-			(xy 426.72 342.9) (xy 426.72 261.62)
-		)
-		(stroke
-			(width 0.381)
-			(type default)
-			(color 221 133 0 1)
-		)
-		(uuid "d9874ac4-485b-4cb7-b7a0-c80b4384b779")
 	)
 	(wire
 		(pts
@@ -8907,17 +8935,6 @@
 			(color 194 0 194 1)
 		)
 		(uuid "e18b9af5-a976-433e-86ed-f00292c17dbf")
-	)
-	(wire
-		(pts
-			(xy 398.78 246.38) (xy 398.78 228.6)
-		)
-		(stroke
-			(width 0.381)
-			(type default)
-			(color 221 133 0 1)
-		)
-		(uuid "e19acdb2-ee43-481a-9b69-b1144bf0b88b")
 	)
 	(wire
 		(pts
@@ -9097,7 +9114,7 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 227.33) (xy 400.05 227.33)
+			(xy 396.24 227.33) (xy 427.99 227.33)
 		)
 		(stroke
 			(width 0.381)
@@ -9185,7 +9202,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 518.16) (xy 223.52 518.16)
+			(xy 194.31 632.46) (xy 195.58 632.46)
 		)
 		(stroke
 			(width 0.381)
@@ -9196,7 +9213,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 247.65) (xy 195.58 519.43)
+			(xy 195.58 360.68) (xy 195.58 632.46)
 		)
 		(stroke
 			(width 0.381)
@@ -9270,17 +9287,6 @@
 			(color 0 0 255 1)
 		)
 		(uuid "f78e122e-04a9-411e-adbf-7164ef84f354")
-	)
-	(wire
-		(pts
-			(xy 194.31 518.16) (xy 194.31 246.38)
-		)
-		(stroke
-			(width 0.381)
-			(type default)
-			(color 221 133 0 1)
-		)
-		(uuid "f80bdf1e-7e60-4d16-9a74-0188bddd37e6")
 	)
 	(wire
 		(pts
@@ -9361,7 +9367,7 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 228.6) (xy 398.78 228.6)
+			(xy 396.24 228.6) (xy 426.72 228.6)
 		)
 		(stroke
 			(width 0.381)
@@ -9856,7 +9862,7 @@
 			(uuid "1a1539ac-7cca-4389-8d36-6ca51be39f83")
 		)
 		(instances
-			(project "Osiris_Wiring_Diagram_July72026"
+			(project "Osiris_Wiring_Diagram_July292026"
 				(path "/c8670e12-ad6c-4b49-8b51-4929353a883f"
 					(reference "BT1")
 					(unit 1)
@@ -9944,7 +9950,7 @@
 					(unit 1)
 				)
 			)
-			(project "Osiris_Wiring_Diagram_July72026"
+			(project "Osiris_Wiring_Diagram_July292026"
 				(path "/c8670e12-ad6c-4b49-8b51-4929353a883f"
 					(reference "BT?")
 					(unit 1)
@@ -10026,7 +10032,7 @@
 			(uuid "ee426f6a-4847-47d8-8c77-71ed57d71851")
 		)
 		(instances
-			(project "Osiris_Wiring_Diagram_July72026"
+			(project "Osiris_Wiring_Diagram_July292026"
 				(path "/c8670e12-ad6c-4b49-8b51-4929353a883f"
 					(reference "BT3")
 					(unit 1)
@@ -10103,7 +10109,7 @@
 			)
 		)
 		(instances
-			(project "Osiris_Wiring_Diagram_July72026"
+			(project "Osiris_Wiring_Diagram_July292026"
 				(path "/c8670e12-ad6c-4b49-8b51-4929353a883f"
 					(reference "SW1")
 					(unit 1)
@@ -10179,7 +10185,7 @@
 			)
 		)
 		(instances
-			(project "Osiris_Wiring_Diagram_July72026"
+			(project "Osiris_Wiring_Diagram_July292026"
 				(path "/c8670e12-ad6c-4b49-8b51-4929353a883f"
 					(reference "F1")
 					(unit 1)
@@ -10261,7 +10267,7 @@
 			(uuid "d21de4b0-3358-419e-8d3f-fc19a27f6e8b")
 		)
 		(instances
-			(project "Osiris_Wiring_Diagram_July72026"
+			(project "Osiris_Wiring_Diagram_July292026"
 				(path "/c8670e12-ad6c-4b49-8b51-4929353a883f"
 					(reference "BT2")
 					(unit 1)
@@ -10337,7 +10343,7 @@
 			)
 		)
 		(instances
-			(project "Osiris_Wiring_Diagram_July72026"
+			(project "Osiris_Wiring_Diagram_July292026"
 				(path "/c8670e12-ad6c-4b49-8b51-4929353a883f"
 					(reference "E-Fuse4")
 					(unit 1)
@@ -10421,7 +10427,7 @@
 			(uuid "8c7b3248-c64f-4614-b23f-1521dee7902e")
 		)
 		(instances
-			(project "Osiris_Wiring_Diagram_July72026"
+			(project "Osiris_Wiring_Diagram_July292026"
 				(path "/c8670e12-ad6c-4b49-8b51-4929353a883f"
 					(reference "R3")
 					(unit 1)
@@ -10505,7 +10511,7 @@
 			(uuid "eacf3ada-8380-479a-82f7-6177cb8bed70")
 		)
 		(instances
-			(project "Osiris_Wiring_Diagram_July72026"
+			(project "Osiris_Wiring_Diagram_July292026"
 				(path "/c8670e12-ad6c-4b49-8b51-4929353a883f"
 					(reference "R6")
 					(unit 1)
@@ -10581,7 +10587,7 @@
 			)
 		)
 		(instances
-			(project "Osiris_Wiring_Diagram_July72026"
+			(project "Osiris_Wiring_Diagram_July292026"
 				(path "/c8670e12-ad6c-4b49-8b51-4929353a883f"
 					(reference "F8")
 					(unit 1)
@@ -10657,7 +10663,7 @@
 			)
 		)
 		(instances
-			(project "Osiris_Wiring_Diagram_July72026"
+			(project "Osiris_Wiring_Diagram_July292026"
 				(path "/c8670e12-ad6c-4b49-8b51-4929353a883f"
 					(reference "SW4")
 					(unit 1)
@@ -10733,7 +10739,7 @@
 			)
 		)
 		(instances
-			(project "Osiris_Wiring_Diagram_July72026"
+			(project "Osiris_Wiring_Diagram_July292026"
 				(path "/c8670e12-ad6c-4b49-8b51-4929353a883f"
 					(reference "E-Fuse2")
 					(unit 1)
@@ -10821,7 +10827,7 @@
 					(unit 1)
 				)
 			)
-			(project "Osiris_Wiring_Diagram_July72026"
+			(project "Osiris_Wiring_Diagram_July292026"
 				(path "/c8670e12-ad6c-4b49-8b51-4929353a883f"
 					(reference "BT?")
 					(unit 1)
@@ -10897,7 +10903,7 @@
 			)
 		)
 		(instances
-			(project "Osiris_Wiring_Diagram_July72026"
+			(project "Osiris_Wiring_Diagram_July292026"
 				(path "/c8670e12-ad6c-4b49-8b51-4929353a883f"
 					(reference "F5")
 					(unit 1)
@@ -10981,7 +10987,7 @@
 			(uuid "58752508-496f-4c2e-976d-15da7ebdfd18")
 		)
 		(instances
-			(project "Osiris_Wiring_Diagram_July72026"
+			(project "Osiris_Wiring_Diagram_July292026"
 				(path "/c8670e12-ad6c-4b49-8b51-4929353a883f"
 					(reference "R5")
 					(unit 1)
@@ -11069,7 +11075,7 @@
 					(unit 1)
 				)
 			)
-			(project "Osiris_Wiring_Diagram_July72026"
+			(project "Osiris_Wiring_Diagram_July292026"
 				(path "/c8670e12-ad6c-4b49-8b51-4929353a883f"
 					(reference "BT?")
 					(unit 1)
@@ -11153,7 +11159,7 @@
 			(uuid "c6f17af2-a89b-4338-8bce-a5d393995cea")
 		)
 		(instances
-			(project "Osiris_Wiring_Diagram_July72026"
+			(project "Osiris_Wiring_Diagram_July292026"
 				(path "/c8670e12-ad6c-4b49-8b51-4929353a883f"
 					(reference "R4")
 					(unit 1)
@@ -11229,7 +11235,7 @@
 			)
 		)
 		(instances
-			(project "Osiris_Wiring_Diagram_July72026"
+			(project "Osiris_Wiring_Diagram_July292026"
 				(path "/c8670e12-ad6c-4b49-8b51-4929353a883f"
 					(reference "F2")
 					(unit 1)
@@ -11306,7 +11312,7 @@
 			)
 		)
 		(instances
-			(project "Osiris_Wiring_Diagram_July72026"
+			(project "Osiris_Wiring_Diagram_July292026"
 				(path "/c8670e12-ad6c-4b49-8b51-4929353a883f"
 					(reference "SW5")
 					(unit 1)
@@ -11382,7 +11388,7 @@
 			)
 		)
 		(instances
-			(project "Osiris_Wiring_Diagram_July72026"
+			(project "Osiris_Wiring_Diagram_July292026"
 				(path "/c8670e12-ad6c-4b49-8b51-4929353a883f"
 					(reference "E-Fuse1")
 					(unit 1)
@@ -11459,7 +11465,7 @@
 			)
 		)
 		(instances
-			(project "Osiris_Wiring_Diagram_July72026"
+			(project "Osiris_Wiring_Diagram_July292026"
 				(path "/c8670e12-ad6c-4b49-8b51-4929353a883f"
 					(reference "SW2")
 					(unit 1)
